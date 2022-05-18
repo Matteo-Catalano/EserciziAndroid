@@ -6,42 +6,52 @@
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".MainActivity"
-    android:gravity="center"
     android:orientation="vertical"
-    android:backgroundTint="@color/cardview_dark_background">
+    >
 
     <FrameLayout
         android:id="@+id/framelayout"
         android:layout_width="match_parent"
-        android:layout_height="600dp"
-        android:background="#C8B8DB"
+        android:layout_height="@dimen/mainFrame"
+        android:background="@color/main"
         >
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="@string/app_name"
             android:gravity="center"
-            android:textSize="30sp"/>
+            android:textSize="@dimen/mainText"/>
+
 
     </FrameLayout>
 
     <Button
         android:id="@+id/fragment1bnt"
-        android:layout_width="150dp"
-        android:layout_height="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/buttomHeight"
         android:backgroundTint="@color/black"
-        android:text="Fragment 1"
+        android:text="@string/fragment1"
         app:layout_constraintEnd_toStartOf="@+id/fragment1bnt"
         app:layout_constraintTop_toBottomOf="@+id/framelayout"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="@dimen/marginButton"
+        android:layout_gravity="center"/>
 
     <Button
         android:id="@+id/fragment2bnt"
-        android:layout_width="148dp"
-        android:layout_height="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/buttomHeight"
         android:backgroundTint="@color/black"
-        android:text="Fragment 2"
-        app:layout_constraintTop_toBottomOf="@+id/framelayout"
+        android:text="@string/fragment2"
+        android:layout_gravity="center"
       />
+
+    <Button
+        android:id="@+id/fragment3bnt"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/listFragment"
+        android:layout_gravity="center"
+        />
 
 </LinearLayout>
