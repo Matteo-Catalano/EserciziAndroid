@@ -1,7 +1,6 @@
 package com.android.example.eserciziandroid
 
 import android.os.Bundle
-import android.os.PersistableBundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.android.example.eserciziandroid.databinding.ActivityMainBinding
@@ -15,6 +14,7 @@ class MainActivity : AppCompatActivity(){
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
 
         binding.fragment1bnt.setOnClickListener {
             replacefragment(Fragment1())
