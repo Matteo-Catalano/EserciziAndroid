@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mainFrame">600dp</dimen>
+    <dimen name="mainText">45sp</dimen>
+    <dimen name="buttomWhidth">300dp</dimen>
+    <dimen name="buttomHeight">50dp</dimen>
+    <dimen name="marginButton">10dp</dimen>
+</resources>
