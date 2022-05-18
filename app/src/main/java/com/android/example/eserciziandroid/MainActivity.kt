@@ -26,6 +26,10 @@ class MainActivity : AppCompatActivity(){
             replacefragment(Fragment2())
 
         }
+
+        binding.fragment3bnt.setOnClickListener {
+            replacefragment(Fragment3())
+        }
     }
 
     private fun replacefragment(fragment : Fragment){
