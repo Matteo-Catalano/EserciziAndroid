@@ -37,5 +37,6 @@ class MainActivity : AppCompatActivity(){
         val fragmentTrasaction = fragmentManager.beginTransaction()
         fragmentTrasaction.replace(R.id.framelayout,fragment)
         fragmentTrasaction.commit()
-    }
+}
+
 }

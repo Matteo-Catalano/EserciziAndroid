@@ -10,4 +10,6 @@
     <string name="listFragment">List</string>
     <string name="textInput">Ecco il numero che hai inserito</string>
     <string name="add">Aggiungi +1</string>
+    <string name="text3Button">Numero</string>
+    <string name="buttonName">Aggiungi +1</string>
 </resources>
