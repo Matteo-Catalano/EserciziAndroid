@@ -11,4 +11,7 @@
     <string name="textInput">Ecco il numero che hai inserito</string>
     <string name="add">Aggiungi +1</string>
     <string name="input">Take input</string>
+    <string name="coroutine">Couroutine</string>
+    <string name="editText">Widget Edit text</string>
+    <string name="textInputCoru">IL tuo numero è</string>
 </resources>
