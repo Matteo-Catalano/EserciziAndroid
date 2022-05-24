@@ -10,4 +10,5 @@
     <string name="listFragment">List</string>
     <string name="textInput">Ecco il numero che hai inserito</string>
     <string name="add">Aggiungi +1</string>
+    <string name="input">Take input</string>
 </resources>
